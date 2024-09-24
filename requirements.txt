@@ -1,3 +1,4 @@
 pytest
 pytest-repeat
+pytest-html
 python-socketio
