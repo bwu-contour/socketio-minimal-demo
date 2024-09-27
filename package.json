@@ -1,0 +1,22 @@
+{
+  "name": "socketio-minimal-demo",
+  "version": "1.0.0",
+  "description": "Socktio mimimal demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwu-contour/socketio-minimal-demo.git"
+  },
+  "keywords": [
+    "socketio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwu-contour/socketio-minimal-demo/issues"
+  },
+  "homepage": "https://github.com/bwu-contour/socketio-minimal-demo#readme"
+}
