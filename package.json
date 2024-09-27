@@ -4,8 +4,7 @@
   "description": "Socktio mimimal demo",
   "main": "index.js",
   "scripts": {
-	"start": "cd server && npm start",
-	"build": "npm install",
+	"start": "cd server && npm install && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
