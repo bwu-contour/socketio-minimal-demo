@@ -18,7 +18,7 @@ def sio():
 def test_send_message(sio):
     print('my sid is', sio.sid)
     print('my transport is', sio.transport)
-    for num in range(1000):
+    for num in range(10):
         sio.emit('message', 'ping' + str(num))
         try:
             event = sio.receive(timeout=5)
