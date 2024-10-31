@@ -1,6 +1,5 @@
 import pytest
 import socketio
-import platform
 
 ENDPOINT = "http://localhost:8080"
 
@@ -26,5 +25,3 @@ def test_send_message(sio):
             print('timed out waiting for event')
         else:
             print(f'received event: "{event[0]}" with arguments {event[1:]}')
-    
-    print("This request is being served by server: " + platform.node())
